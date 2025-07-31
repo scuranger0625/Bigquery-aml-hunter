@@ -1,5 +1,2 @@
-# 所有 .sql 檔案標記為 SQL
-*.sql linguist-language=SQL
-
-# 如果有其他副檔名也是 SQL 但不被認為是，指定它們
-*.psql linguist-language=SQL
+*.sql linguist-detectable
+*.md linguist-documentation
